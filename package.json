@@ -1,0 +1,25 @@
+{
+  "name": "botson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit",
+    "test:debug": "node --inspect-brk ./node_modules/.bin/jest"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/tests/**/*.test.js"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.9.0",
+    "elasticsearch": "^16.7.3"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}
